@@ -1,0 +1,12 @@
+﻿<Window x:Class="MessengerApp.MainWindow"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     Title="Messenger" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="ChatList" HorizontalAlignment="Left" Width="200"/>
+        <ListBox x:Name="MessageList" HorizontalAlignment="Right" Width="600"/>
+        <TextBox x:Name="MessageInput" VerticalAlignment="Bottom" Width="500"/>
+        <Button Content="Send" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="SendButton_Click"/>
+        
+    </Grid>
+</Window> 
